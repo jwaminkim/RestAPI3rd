@@ -36,7 +36,7 @@ namespace RestAPISa.Controllers
             {
                 JArray jArrResult = new JArray();
                 var jResult1 = JObject.Parse("{\"name\" : \"김좌민\", \"id\" : 1}");
-                var jResult2 = JObject.Parse("{\"name\" : \"김동우\", \"id\" : 5}");
+                var jResult2 = JObject.Parse("{\"name\" : \"김동우\", \"id\" : 6}");
                 jArrResult.Add(jResult1);
                 jArrResult.Add(jResult2);
                 return JsonConvert.SerializeObject(jArrResult);
